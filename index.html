@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnCarBasics</title>
+    <meta name="description" content="Easy to understand educational content for users who want to improve and learn automobiles.">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="assets/images/faviwavi.png">
+
+</head>
+<body id="top">
+
+<header class="site-header-wireframe">
+    <div class="container header-flex-wrapper">
+        <a href="index.html" class="wireframe-logo">
+            <img src="assets/images/LCBLOGO1.png" alt="LearnCarBasics Logo" class="nav-logo-img">
+        </a>
+
+        <nav class="wireframe-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-divider">|</li>
+                <li><a href="pages/guides.html">Tutorials</a></li>
+                <li class="nav-divider">|</li>
+                <li><a href="pages/centre.html">Knowledge Centre</a></li>
+                <li class="nav-divider">|</li>
+                <li><a href="pages/about.html">About Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="search-box-container">
+            <form action="/search" method="GET" class="search-form-wrapper">
+                <button type="submit" class="search-submit-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" name="q" placeholder="Search..." autocomplete="off" class="search-input-field">
+            </form>
+        </div>
+    </div>
+</header>
+
+    <main>
+       <section class="hero-section">
+    <!-- The HTML5 Video Background Layer -->
+    <div class="hero-video-wrapper">
+        <video autoplay loop muted playsinline preload="auto" class="hero-video-el" id="heroVideo">
+            <!-- Point this src to wherever you save your background clip -->
+            <source src="assets/video/hero-loop.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Shading tint to keep your exact dark background aesthetic -->
+        <div class="hero-video-overlay"></div>
+    </div>
+
+    <!-- Your existing content layout container remains untouched -->
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Master Your Machine<br>DIY Car Guides and Tutorials</h1>
+            <p>Providing easy to understand educational content for beginner drivers and seasoned pros alike.</p>
+        </div>
+    </div>
+</section>
+
+        <section class="tutorials-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Featured Tutorials</h2>
+                </div>
+
+                <div class="tutorials-grid">
+                    <article class="tutorial-card">
+                        <div class="card-icon"><i class="fa-solid fa-oil-can"></i></div>
+                        <h3>Engine Guide</h3>
+                        <p>Learn basic engine maintenance functionality by discovering how to safely drain and replace your engine oil.</p>
+                        <div class="card-action"><a href="pages/engine.html" class="view-guide-btn">View Guide &rarr;</a></div>
+                    </article>
+
+                    <article class="tutorial-card">
+                        <div class="card-icon"><i class="fa-solid fa-circle-dot"></i></div>
+                        <h3>Tyre Guide</h3>
+                        <p>Essential tyre safety metrics and basic roadside replacement information to handle unexpected flats safely.</p>
+                        <div class="card-action"><a href="pages/tyres.html" class="view-guide-btn">View Guide &rarr;</a></div>
+                    </article>
+
+                    <article class="tutorial-card">
+                        <div class="card-icon"><i class="fa-solid fa-clipboard-list"></i></div>
+                        <h3>Misc Guide</h3>
+                        <p>Avoid buying a lemon. Learn how to perform a comprehensive physical walkaround and inspect key parts before paying.</p>
+                        <div class="card-action"><a href="pages/misc.html" class="view-guide-btn">View Checklist &rarr;</a></div>
+                    </article>
+                </div> 
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3><a href="pages/centre.html">KNOWLEDGE CENTRE</a></h3>
+                <ul>
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="pages/faq.html">FAQ'S</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3><a href="pages/about.html">ABOUT US</a></h3>
+                <ul>
+                    <li><a href="pages/team.html">Our Team</a></li>
+                    <li><a href="pages/reviews.html">Testimonials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>FIND US ON</h3>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i> X/Twitter</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                </ul>
+                
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <b>2026 Aullion Holdings LTD All Rights Reserved </b></p>
+
+             <p>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" >
+        </a>
+    </p>
+
+        </div>
+    </footer>
+
+    <a href="#top" class="back-to-top" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+     <script>
+    function validateMileageForm(event) {
+        var mileageInput = document.getElementById('form-mileage').value;
+        var errorMsg = document.getElementById('error-message');
+        var isNumeric = /^[0-9]+$/.test(mileageInput);
+
+        if (!isNumeric || parseInt(mileageInput) < 0) {
+            event.preventDefault(); 
+            errorMsg.style.display = 'block'; 
+            return false;
+        }
+        
+        errorMsg.style.display = 'none'; 
+        alert('Form submitted successfully! Your 5,000 km tracking cycle has started.');
+        
+        // Stops the form from reloading the page and triggering the map iframe error
+        event.preventDefault(); 
+        return true;
+    }
+</script>
+<script>
+    // Grab the video element
+    const video = document.getElementById('heroVideo');
+    
+    // Slow it down! (0.7 = 70% of normal speed. Change to 0.5 for half speed)
+    if (video) {
+        video.playbackRate = 0.7;
+    }
+</script>
+
+
+</body>
+</html>
